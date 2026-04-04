@@ -1,0 +1,193 @@
+
+/* ==========================================
+   1. RESET E ESTILOS GERAIS
+   ========================================== */
+
+html, body, div, nav, ul, li, a, img, header, section, h1, p, footer, address, main {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000;
+}
+
+.page {
+  max-width: 1600px;
+  min-width: 1100px;
+  margin: 0 auto;
+  padding: 0 80px;
+}
+
+/* ==========================================
+   2. NAVEGAÇÃO (NAV)
+   ========================================== */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.nav__logo {
+  width: 58px;
+  height: 80px;
+}
+
+.nav__links {
+  display: flex;
+  column-gap: 20px;
+  list-style-type: none;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+/* ==========================================
+   3. CABEÇALHO (HEADER)
+   ========================================== */
+
+.header {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  position: relative;
+  min-height: 720px;
+}
+
+.header__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.header__text-container {
+  max-width: 635px;
+  flex: 1;
+}
+
+.header__title {
+  font-size: 62px;
+  line-height: 76px;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+
+.header__description {
+  max-width: 515px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__image {
+  max-width: 636px;
+  width: 45%;
+  height: auto;
+  flex-shrink: 0;
+  display: block;
+}
+
+.header__address {
+  display: block;
+  width: 100%;
+  text-align: right;
+  font-style: normal;
+  margin-top: 20px;
+  color: #838383;
+  font-size: 14px;
+}
+
+/* ==========================================
+   4. SEÇÃO STAFF (ESCOLHAS DA EQUIPE)
+   ========================================== */
+
+.staff {
+  background-image: url("../images/staff_picks_background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0;
+  margin-top: 40px;
+}
+
+.staff__title {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 900;
+  font-size: 52px;
+  line-height: 1.15;
+  margin-bottom: 24px;
+}
+
+.staff__subtitle {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.staff__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* ==========================================
+   5. COMPONENTES: CARDS
+   ========================================== */
+
+.card {
+  width: 360px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 40px;
+}
+
+.card__title {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.card__text {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.card__footer {
+  margin-top: auto;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* ==========================================
+   6. RODAPÉ (FOOTER) E EXTRAS
+   ========================================== */
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 40px 0;
+}
