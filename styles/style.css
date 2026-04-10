@@ -1,9 +1,22 @@
-
 /* ==========================================
    1. RESET E ESTILOS GERAIS
    ========================================== */
 
-html, body, div, nav, ul, li, a, img, header, section, h1, p, footer, address, main {
+html,
+body,
+div,
+nav,
+ul,
+li,
+a,
+img,
+header,
+section,
+h1,
+p,
+footer,
+address,
+main {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
